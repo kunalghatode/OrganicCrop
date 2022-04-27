@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/splashWelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/splashLoginDistributor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login as Distributor"
+        android:layout_margin="32dp"
+        android:onClick="loginDistributor"
+        app:layout_constraintBottom_toTopOf="@id/splashLoginCustomer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/splashLoginCustomer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login as Customer"
+        android:layout_margin="32dp"
+        android:onClick="loginCustomer"
+        app:layout_constraintBottom_toTopOf="@id/splashCreateButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/splashCreateButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:layout_margin="32dp"
+        android:onClick="createAccount"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

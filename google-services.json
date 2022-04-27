@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "914958482299",
+    "project_id": "organic-crops",
+    "storage_bucket": "organic-crops.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914958482299:android:90f0160d7a2c7a03d39bde",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914958482299-stiat7ujgp2nl1api68up4h7h36dib67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHgjF2k93SXNsNFAGNcrsxYk5R0dAgrXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914958482299-stiat7ujgp2nl1api68up4h7h36dib67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914958482299:android:8783960886008bb0d39bde",
+        "android_client_info": {
+          "package_name": "tk.organiccrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914958482299-stiat7ujgp2nl1api68up4h7h36dib67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHgjF2k93SXNsNFAGNcrsxYk5R0dAgrXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914958482299-stiat7ujgp2nl1api68up4h7h36dib67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
